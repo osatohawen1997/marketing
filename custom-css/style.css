@@ -1,0 +1,549 @@
+body{
+    background: rgb(239, 239, 239);
+}
+
+.hero-bg{
+    background: linear-gradient(rgb(224, 224, 224, .5), rgba(224, 224, 224, .5)), url('../images/3sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+    letter-spacing: 6px;
+}
+
+.bi:focus{
+   background: white;
+}
+
+.hero-heading{
+    flex-direction: column;
+    
+}
+
+.hero-h1{
+    font-family: 'PT Sans' !important;
+    letter-spacing: 8px;
+}
+
+.learn-more:hover{
+    background: none;
+    color: green;
+    outline: 1.2px solid green;
+}
+
+@media(max-width: 991.98px){
+    .navbar{
+        height: 4rem;
+    }
+
+    .btn-close:focus{
+        outline: none;
+        box-shadow: none;
+    }
+
+    .collapse{
+        background: white;
+        width: 100%;
+        margin-top: .5rem;
+    }
+
+    .navbar-nav{
+        gap: 0 !important;
+        margin-left: 1.5rem !important;
+    }
+
+    .icon{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .navbar-toggler{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+        border: 1px solid white;
+    }
+
+    .navbar-toggler-icon{
+        margin-left: -.7rem;
+        margin-top: -.2rem;
+    }
+
+    .hero-h1{
+        letter-spacing: 4px;
+    }
+
+    .paragraph{
+        font-size: 1.1rem !important;
+    }
+
+    .hero-paragraph{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 768px){
+    .navbar-brand{
+        font-size: 1.2rem !important;
+        letter-spacing: 4px;
+        margin-left: -.5rem;
+    }
+
+    .hero-h1{
+        letter-spacing: 0;
+    }
+}
+
+@media(max-width: 578px){
+    .offcanvas{
+        width: 60% !important;
+    }
+
+    .hero-h1{
+        font-size: 1.4rem;
+    }
+
+    .paragraph{
+        font-size: .95rem !important;
+    }
+}
+
+.col-row{
+    margin-top: 8rem !important;
+   
+}
+
+.col{
+    width: 30% !important;
+}
+
+.round-icon{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: -3%;
+    margin-left: .5rem;
+}
+
+.col-head{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.col-p{
+    margin-top: -2.5rem;
+}
+
+.apple{
+    margin-top: -.5rem;
+}
+
+@media(max-width: 992px){
+    .col-row{
+        background: rgba(255, 255, 255, 0.756);
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 15rem !important;
+    }
+
+    .round-icon{
+        margin-top: -4.5%;
+    }
+
+    .col1{
+        position: absolute;
+        top: -12%;
+        width: 90% !important;
+    }
+
+    .col2{
+        position: relative;
+        margin-top: 10rem;
+        width: 90% !important;
+    }
+
+    .col3{
+        position: relative;
+        margin-top: 2rem;
+        width: 90% !important;
+    }
+}
+
+@media(max-width: 768px){
+    .round-icon{
+        margin-top: -6%;
+    }
+}
+
+@media(max-width: 576px){
+    .round-icon{
+        margin-top: -7.5%;
+    }
+}
+
+@media(max-width: 416px){
+    .round-icon{
+        margin-top: -10%;
+    }
+}
+
+.container-xl{
+    margin-top: 5rem;
+}
+
+.color-border{
+    width: 4rem;
+    height: 6px;
+    background: linear-gradient(to right, rgb(184, 53, 217), rgb(13, 202, 240));
+    margin-left: 1rem !important;
+}
+
+.about-head{
+    font-size: 2.5rem;
+    font-family: 'Josefin sans';
+    padding-left: 1rem;
+}
+
+.about-p{
+    padding-left: 1rem;
+}
+
+.icon-row{
+    margin-top: -1.5rem;
+}
+
+@media(max-width: 992px){
+    .color-border{
+        margin-top: 2rem !important;
+        margin-left: 0 !important;
+    }
+
+    .about-head{
+       padding-left: 0;
+    }
+
+    .about-p{
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 768px){
+    .color-border{
+        margin: auto !important;
+        margin-top: 2rem !important;
+    }
+
+    .about-head{
+        text-align: center;
+    }
+
+    .about-p{
+        text-align: center;
+    }
+}
+
+.service{
+    font-family: 'poppins';
+    font-size: 1.8rem;
+}
+
+@media(max-width: 576px){
+    .service{
+        font-size: 1.4rem;
+    }
+
+    .service-p{
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width: 416px){
+    .service-p{
+        font-size: 1rem !important;
+    }
+}
+
+.service-col{
+    width: 21% !important;
+    cursor: pointer;
+}
+
+.service-col:hover{
+    background: linear-gradient(to right, rgb(165, 53, 217), rgb(13, 202, 240));
+    color: white;
+    transform: translateY(-.7rem);
+    transition: all .3s ease-in-out;
+}
+
+@media(max-width: 992px){
+    .service-col{
+        width: 40% !important;
+    }
+}
+
+@media(max-width: 768px){
+    .service-col{
+        width: 83% !important;
+    }
+}
+
+@media(max-width: 576px){
+    .service-col{
+        width: 90% !important;
+    }
+}
+
+.service-icon{
+    font-size: 4rem !important;
+}
+
+.service-icon:hover{
+    color: white !important;
+}
+
+.icon-p{
+    font-size: 1.15rem !important;
+    font-family: 'poppins';
+}
+
+.professional{
+    margin-top: 5rem;
+}
+
+.color2{
+    margin-left: 0 !important;
+}
+
+.prof-head{
+    font-size: 2.5rem;
+    font-family: 'Josefin sans';
+}
+
+
+.listing1{
+    margin-top: 4rem;
+}
+
+.listing2{
+    margin-top: .5rem;
+}
+
+.listing-font{
+    font-family: 'Josefin Sans';
+}
+
+@media(max-width: 991.98px){
+    .professional{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prof-col{
+        width: 100%;
+    }
+
+    .prof-head{
+        padding-left: 0;
+    }
+
+    .prof-p{
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 767.98px){
+    
+    .prof-head{
+        text-align: center;
+    }
+
+    .prof-col{
+        text-align: center;
+    }
+
+    .prof-p{
+        font-size: 1rem !important;
+    }
+
+    .color2{
+        margin: auto !important;
+    }
+
+    .listing1{
+        flex-direction: column;
+        gap: 0 !important;
+        text-align: center;
+    }
+
+    .listing2{
+        flex-direction: column;
+        gap: 0 !important;
+        text-align: center;
+    }
+}
+
+.achievement-icon{
+    font-size: 3rem;
+    color: rgb(13, 176, 240);
+    
+}
+
+@media(max-width: 992px){
+    .achievement-row{
+        row-gap: 1rem;
+    }
+
+    .count{
+        border-right: 1px solid gainsboro;
+        width: 50%;
+    }
+}
+
+@media(max-width:768px){
+    .count{
+        width: 100%;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .last{
+        border-bottom: 0;
+    }
+
+    .achievement-p{
+        font-size: 1.15rem !important;
+    }
+}
+
+
+.review-col{
+    width: 40%;   
+}
+
+.name{
+    top: 10%;
+    left: 0;
+    width: 15rem;
+    height: 1.9rem;
+    background: linear-gradient(to right, rgb(165, 53, 217), rgb(13, 202, 240));
+}
+
+.review-name{
+    font-family: 'josefin sans';
+}
+
+.photo{
+    width: 4rem;
+    height: 4rem;
+    z-index: +1;
+    top: 4%;
+    left: 7%;
+}
+
+.review-pic{
+    border-radius: 10rem;
+}
+
+.review-p{
+    margin-top: 6rem;
+}
+
+@media(max-width: 992px){
+    .review-col{
+        width: 45%;
+    }
+}
+
+@media(max-width: 767.98px){
+    .review-col{
+        width: 70%;
+    }
+
+    .name{
+        width: 13rem;
+    }
+
+    .photo2{
+        left: 4%;
+    }
+
+    .review-name{
+        margin-right: 1rem !important;
+    }
+}
+
+@media(max-width: 576px){
+    .review-col{
+        width: 90%;
+    }
+}
+
+.map{
+    width: 100%;
+    height: 450px;
+}
+
+.contact-col{
+    width: 28%;
+    flex-direction: column;
+}
+
+.contact-col:hover{
+    background: linear-gradient(to right, rgb(165, 53, 217), rgb(13, 202, 240));
+    color: white;
+    transform: translateY(-.7rem);
+    transition: all .3s ease-in-out;
+}
+
+.contact-icon{
+    font-size: 4rem;
+}
+
+.contact-p{
+    font-family: 'josefin sans';
+    font-size: 1.7rem;
+}
+
+.icon-low{
+    font-size: 1.7rem;
+}
+
+@media(max-width: 992px){
+    .contact-col{
+        width: 45%;
+    }
+}
+
+@media(max-width: 768px){
+    .contact-col{
+        width: 90%;
+    }
+}
+
+.footer{
+    background: linear-gradient(to right, rgb(165, 53, 217), rgb(13, 202, 240));
+}
+
+@media(max-width: 991.98px){
+    .footer-col{
+        font-size: 1rem !important;
+    }
+}
+
+@media(max-width: 767.98px){
+    .footer{
+        gap: 0 !important;
+    }
+
+    .footer-col{
+        text-align: center !important;
+    }
+
+    .copy{
+        border-top: 1px solid gainsboro;
+        padding-top: 1.3rem;
+    }
+}
