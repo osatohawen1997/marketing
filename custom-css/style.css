@@ -3,7 +3,7 @@ body{
 }
 
 .hero-bg{
-    background: linear-gradient(rgb(224, 224, 224, .5), rgba(224, 224, 224, .5)), url('../images/3sky.jpg');
+    background: linear-gradient(rgba(224, 224, 224, .5), rgba(224, 224, 224, .5)), url('../images/3sky.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
